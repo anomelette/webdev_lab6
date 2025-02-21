@@ -18,6 +18,10 @@ body {
 }
 
 
+#footer {
+  background-color: #777;
+  height: 80px;
+}
 
 #main-nav {
   float: left;
@@ -34,11 +38,11 @@ body {
   left:50%;
 }
 
-#main-nav ul li {
+#main-nav ul li a {
   float: left;
   position: relative;
   right: 50%;
-
+}
 
 #main-nav ul li {
   padding: 10px 25px;
@@ -46,3 +50,5 @@ body {
   text-decoration: none;
   color: #ccc;
 }
+
+
